@@ -4,10 +4,10 @@ public class TestReferencia2 {
 	public static void main(String[] args) {
 		Cuenta CuentaDeMarcela = new Cuenta();
 
-		CuentaDeMarcela.titular = new Cliente(); 
+		CuentaDeMarcela.setTitular(new Cliente()); 
 
-		CuentaDeMarcela.titular.nombre = "Marcela";
-		System.out.println(CuentaDeMarcela.titular.nombre);
+		CuentaDeMarcela.getTitular().setNombre("marcela");
+		System.out.println(CuentaDeMarcela.getTitular().getNombre());
 		
 	}
 }
