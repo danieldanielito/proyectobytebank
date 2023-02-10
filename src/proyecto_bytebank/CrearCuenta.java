@@ -4,7 +4,7 @@ public class CrearCuenta {
 
     public static void main(String[] args) {
 
-        Cuenta primeraCuenta = new Cuenta();
+        Cuenta primeraCuenta = new Cuenta(222,333);
         primeraCuenta.deposita(100);
         System.out.println(primeraCuenta.getSaldo());
 
